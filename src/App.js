@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import translations from "./components/translations";
+
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 function App() {
+  const [lang, setLang] = useState("fr"); // 🔥 langue par défaut
+
+  const t = translations[lang]; // 🔥 on récupère les textes
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar t={t} lang={lang} setLang={setLang} />
+      <Hero t={t} />
+      <Services t={t} />
+      <Gallery />
+      <About t={t} />
+      <Contact t={t} />
+      <Footer />
+    </>
   );
 }
 
