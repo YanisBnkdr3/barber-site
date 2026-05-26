@@ -13,6 +13,7 @@ export default function Navbar({ t, lang, setLang }) {
         top: 0,
         left: 0,
         width: "100%",
+        boxSizing: "border-box", // 🔥 AJOUT IMPORTANT
         background: "rgba(0,0,0,0.8)",
         backdropFilter: "blur(10px)",
         zIndex: 1000,
