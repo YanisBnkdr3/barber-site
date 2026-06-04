@@ -36,7 +36,7 @@ export default function Contact({ t }) {
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <FaMapMarkerAlt color="#d4af37" />
             <a
-              href="https://www.google.com/maps?q=215+rue+Milton+Montreal"
+              href="https://www.google.com/maps?q=214+rue+Milton+Montreal"
               target="_blank"
               rel="noreferrer"
               style={{
@@ -123,7 +123,7 @@ export default function Contact({ t }) {
       <div style={{ marginTop: "40px" }}>
         <iframe
           title="map"
-          src="https://www.google.com/maps?q=215+rue+Milton+Montreal&output=embed"
+          src="https://www.google.com/maps?q=214+rue+Milton+Montreal&output=embed"
           width="100%"
           height="300"
           style={{ border: 0, borderRadius: "10px" }}

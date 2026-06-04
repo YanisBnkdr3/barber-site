@@ -16,6 +16,7 @@ const translations = {
 
     services: {
       title: "Services",
+      reserve: "Réserver", // 🔥 IMPORTANT
       items: [
         {
           title: "Coupe",
@@ -47,12 +48,11 @@ const translations = {
       text2: "Nous proposons des coupes modernes et un service personnalisé.",
       text3:
         "Notre objectif est de vous offrir un style propre et professionnel.",
-      text4: "Nous sommes disponibles 7j/7 de 9h à 22h",
     },
 
     contact: {
       title: "Contact",
-      address: "215 rue Milton, Montréal",
+      address: "214 rue Milton, Montréal",
       phone: "438 763 9625",
     },
   },
@@ -74,6 +74,7 @@ const translations = {
 
     services: {
       title: "Services",
+      reserve: "Book Now", // 🔥 IMPORTANT
       items: [
         {
           title: "Haircut",
@@ -104,12 +105,11 @@ const translations = {
         "Barber Lounes is a barbershop located in downtown Montreal at 215 Milton Street.",
       text2: "We offer modern haircuts and personalized service.",
       text3: "Our goal is to provide a clean and professional style.",
-      text4: "We are available 7 days a week from 9 AM to 10 PM",
     },
 
     contact: {
       title: "Contact",
-      address: "215 Milton Street, Montreal",
+      address: "214 Milton Street, Montreal",
       phone: "438 763 9625",
     },
   },
