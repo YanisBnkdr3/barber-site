@@ -13,7 +13,7 @@ export default function Navbar({ t, lang, setLang }) {
         top: 0,
         left: 0,
         width: "100%",
-        boxSizing: "border-box", // 🔥 AJOUT IMPORTANT
+        boxSizing: "border-box",
         background: "rgba(0,0,0,0.8)",
         backdropFilter: "blur(10px)",
         zIndex: 1000,
@@ -43,7 +43,7 @@ export default function Navbar({ t, lang, setLang }) {
         </div>
       </div>
 
-      {/* 🔥 MENU MOBILE */}
+      {/*  MENU MOBILE */}
       {open && (
         <div
           style={{

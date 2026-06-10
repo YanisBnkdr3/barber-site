@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-// 🔥 IMPORT IMAGES
 import coupeImg from "../images/coupe.png";
 import barbeImg from "../images/barbe.png";
 import comboImg from "../images/coupebarbe.png";
@@ -10,7 +9,6 @@ export default function Services({ t }) {
   const services = t.services.items;
   const images = [coupeImg, barbeImg, comboImg, fadeImg];
 
-  // 🔥 TON LIEN FRESHA
   const bookingLink = "https://calendly.com/lounesoubouchou/30min";
 
   return (
@@ -76,7 +74,7 @@ export default function Services({ t }) {
             <p style={{ color: "#ccc" }}>{item.desc}</p>
             <h4 style={{ marginTop: "10px", color: "white" }}>{item.price}</h4>
 
-            {/* 🔥 BOUTON RÉSERVATION */}
+            {/*  BOUTON RÉSERVATION */}
             <button
               onClick={() => window.open(bookingLink, "_blank")}
               style={{

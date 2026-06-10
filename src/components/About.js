@@ -22,7 +22,7 @@ export default function About({ t }) {
           gap: "40px",
         }}
       >
-        {/* 🔥 IMAGE UNIQUE */}
+        {/*  IMAGE UNIQUE */}
         <motion.img
           src={img1}
           alt="barber"
@@ -38,7 +38,7 @@ export default function About({ t }) {
           }}
         />
 
-        {/* 📝 TEXTE */}
+        {/*  TEXTE */}
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}

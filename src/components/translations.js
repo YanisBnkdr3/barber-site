@@ -16,7 +16,7 @@ const translations = {
 
     services: {
       title: "Services",
-      reserve: "Réserver", // 🔥 IMPORTANT
+      reserve: "Réserver",
       items: [
         {
           title: "Coupe",
@@ -74,7 +74,7 @@ const translations = {
 
     services: {
       title: "Services",
-      reserve: "Book Now", // 🔥 IMPORTANT
+      reserve: "Book Now",
       items: [
         {
           title: "Haircut",

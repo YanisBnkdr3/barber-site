@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 
-// 🔥 importe tes images
 import img1 from "../images/barber5.png";
 import img2 from "../images/barber4.png";
 import img3 from "../images/barber7.png";
@@ -43,7 +42,7 @@ export default function Gallery() {
               cursor: "pointer",
               transition: "0.3s",
             }}
-            // 🔥 hover zoom
+            //  hover zoom
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = "scale(1.05)";
             }}

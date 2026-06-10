@@ -10,9 +10,9 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
 function App() {
-  const [lang, setLang] = useState("fr"); // 🔥 langue par défaut
+  const [lang, setLang] = useState("fr");
 
-  const t = translations[lang]; // 🔥 on récupère les textes
+  const t = translations[lang];
 
   return (
     <>
