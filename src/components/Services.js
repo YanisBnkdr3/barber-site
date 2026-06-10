@@ -11,7 +11,7 @@ export default function Services({ t }) {
   const images = [coupeImg, barbeImg, comboImg, fadeImg];
 
   // 🔥 TON LIEN FRESHA
-  const bookingLink = "https://calendly.com/yanisbnkdr76/30min";
+  const bookingLink = "https://calendly.com/lounesoubouchou/30min";
 
   return (
     <div
