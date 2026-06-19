@@ -55,36 +55,53 @@ export default function Services({ t }) {
               e.currentTarget.style.boxShadow = "0 0 15px rgba(0,0,0,0.5)";
             }}
           >
-            {/* IMAGE */}
-            <img
-              src={images[index]}
-              alt={item.title}
+            {/* IMAGE PRO */}
+            <div
               style={{
                 width: "100%",
-                height: "150px",
-                objectFit: "contain",
-                background: "#000",
+                height: "180px",
+                overflow: "hidden",
                 borderRadius: "10px",
                 marginBottom: "15px",
               }}
-            />
+            >
+              <img
+                src={images[index]}
+                alt={item.title}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  objectPosition:
+                    index === 1
+                      ? "100% 40%" // Buzz Cut
+                      : index === 2
+                        ? "100% 40%" // Espagnole
+                        : "top", // autres images
+                }}
+              />
+            </div>
 
             {/* TEXTE */}
             <h3 style={{ color: "#d4af37" }}>{item.title}</h3>
             <p style={{ color: "#ccc" }}>{item.desc}</p>
             <h4 style={{ marginTop: "10px", color: "white" }}>{item.price}</h4>
 
-            {/*  BOUTON RÉSERVATION */}
+            {/* BOUTON */}
             <button
               onClick={() => window.open(bookingLink, "_blank")}
               style={{
                 marginTop: "15px",
-                padding: "10px",
+                padding: "12px",
                 width: "100%",
                 background: "#d4af37",
                 border: "none",
+                borderRadius: "8px",
                 cursor: "pointer",
                 fontWeight: "bold",
+                fontSize: "15px",
+                color: "#000",
+                boxShadow: "0 4px 15px rgba(212,175,55,0.4)",
                 transition: "0.3s",
               }}
               onMouseEnter={(e) =>
