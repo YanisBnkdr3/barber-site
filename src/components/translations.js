@@ -89,7 +89,7 @@ const translations = {
         {
           title: "Spanish Cut",
           desc: "Clean fade with a modern style inspired by Spanish trends",
-          price: "30$",
+          price: "50$",
         },
         {
           title: "Fade",
