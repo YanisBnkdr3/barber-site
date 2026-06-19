@@ -12,9 +12,18 @@ export default function Footer() {
     >
       <p style={{ margin: 0 }}>
         © {new Date().getFullYear()} Barber Lounes — Site réalisé par{" "}
-        <span style={{ color: "#d4af37", fontWeight: "bold" }}>
+        <a
+          href="https://www.linkedin.com/in/yanis-benkeder-6a7bba334"
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            color: "#d4af37",
+            fontWeight: "bold",
+            textDecoration: "none",
+          }}
+        >
           Yanis Benkeder
-        </span>
+        </a>
       </p>
     </div>
   );
