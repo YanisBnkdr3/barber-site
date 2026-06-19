@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
-
+import salonImg from "../images/salon.png";
 export default function Hero({ t }) {
   return (
     <div
       id="home"
       style={{
         height: "100vh",
-        backgroundImage:
-          "url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70')",
+        backgroundImage: `url(${salonImg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         display: "flex",

@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
 import coupeImg from "../images/coupe.png";
-import barbeImg from "../images/barbe.png";
-import comboImg from "../images/coupebarbe.png";
+import barbeImg from "../images/Buzzcut.png";
+import comboImg from "../images/espanoel.png";
 import fadeImg from "../images/fade.png";
 
 export default function Services({ t }) {

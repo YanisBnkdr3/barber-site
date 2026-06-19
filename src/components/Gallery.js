@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import img1 from "../images/barber5.png";
-import img2 from "../images/barber4.png";
+import img2 from "../images/salon.png";
 import img3 from "../images/barber7.png";
 
 export default function Gallery() {

@@ -74,7 +74,7 @@ export default function Navbar({ t, lang, setLang }) {
             {t.nav.services}
           </Link>
 
-          <Link
+          {/*  <Link
             to="gallery"
             smooth
             duration={500}
@@ -82,7 +82,7 @@ export default function Navbar({ t, lang, setLang }) {
             style={{ color: "white" }}
           >
             {t.nav.gallery}
-          </Link>
+          </Link>*/}
 
           <Link
             to="about"

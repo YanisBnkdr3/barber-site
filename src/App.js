@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Gallery from "./components/Gallery";
+// import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <Navbar t={t} lang={lang} setLang={setLang} />
       <Hero t={t} />
       <Services t={t} />
-      <Gallery />
+      {/*<Gallery />*/}
       <About t={t} />
       <Contact t={t} />
       <Footer />
